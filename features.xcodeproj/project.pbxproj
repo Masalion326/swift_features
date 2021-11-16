@@ -13,6 +13,8 @@
 		DCA02BF227437ACE00EBBAFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA02BF027437ACE00EBBAFC /* Main.storyboard */; };
 		DCA02BF427437AD000EBBAFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA02BF327437AD000EBBAFC /* Assets.xcassets */; };
 		DCA02BF727437AD000EBBAFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA02BF527437AD000EBBAFC /* LaunchScreen.storyboard */; };
+		DCA02BFF27437B0B00EBBAFC /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA02BFE27437B0B00EBBAFC /* fish.png */; };
+		DCA02C012743927100EBBAFC /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCA02C002743927000EBBAFC /* sample.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DCA02BF327437AD000EBBAFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCA02BF627437AD000EBBAFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCA02BF827437AD000EBBAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA02BFE27437B0B00EBBAFC /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		DCA02C002743927000EBBAFC /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		DCA02BDE27437ACE00EBBAFC = {
 			isa = PBXGroup;
 			children = (
+				DCA02BFE27437B0B00EBBAFC /* fish.png */,
+				DCA02C002743927000EBBAFC /* sample.mp3 */,
 				DCA02BE927437ACE00EBBAFC /* features */,
 				DCA02BE827437ACE00EBBAFC /* Products */,
 			);
@@ -126,8 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCA02BF727437AD000EBBAFC /* LaunchScreen.storyboard in Resources */,
+				DCA02BFF27437B0B00EBBAFC /* fish.png in Resources */,
 				DCA02BF427437AD000EBBAFC /* Assets.xcassets in Resources */,
 				DCA02BF227437ACE00EBBAFC /* Main.storyboard in Resources */,
+				DCA02C012743927100EBBAFC /* sample.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
